@@ -1,0 +1,22 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+
+# -------------------------
+# IntelliJ IDEA
+# -------------------------
+.idea/
+*.iml
+
+# -------------------------
+# Database locale
+# -------------------------
+data/
+
+# -------------------------
+# Compilati e build
+# -------------------------
+out/
+target/
+*.class
+*.log
