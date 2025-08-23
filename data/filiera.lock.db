@@ -1,0 +1,6 @@
+#FileLock
+#Sat Aug 23 17:48:31 CEST 2025
+hostName=ice
+id=198d787edc378e8540c99ff0cc2181822064b553c95
+method=file
+server=192.168.1.150\:3876

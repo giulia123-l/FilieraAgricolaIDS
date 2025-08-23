@@ -1,4 +1,4 @@
-package service;
+package com.example.filiera.service;
 
 import com.example.filiera.domain.Utente;
 import com.example.filiera.dto.LoginResponse;

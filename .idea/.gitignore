@@ -1,10 +1,35 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Environment-dependent path to Maven home directory
-/mavenHomeManager.xml
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# =========================
+# IntelliJ IDEA - condividere solo le configurazioni utili al team
+# =========================
+
+# Ignora i file personali e locali
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/httpRequests/
+.idea/sonarlint/
+
+# Moduli generati automaticamente
+*.iml
+
+# Cartelle di output IntelliJ
+out/
+
+# =========================
+# Maven
+# =========================
+
+# Cartella di build Maven
+target/
+
+# =========================
+# Log e file temporanei
+# =========================
+*.log
+
+# =========================
+# File di sistema
+# =========================
+.DS_Store
+Thumbs.db
