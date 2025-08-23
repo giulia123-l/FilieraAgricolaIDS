@@ -1,6 +1,12 @@
 package com.example.filiera.service;
 
-import com.example.filiera.domain.*;
+import com.example.filiera.domain.Prodotto;
+import com.example.filiera.domain.Ruolo;
+import com.example.filiera.domain.StatoProdotto;
+import com.example.filiera.domain.StatoUtente;
+import com.example.filiera.domain.TipoProdotto;
+import com.example.filiera.domain.Trasformazione;
+import com.example.filiera.domain.Utente;
 import com.example.filiera.dto.CreateTransformedProductRequest;
 import com.example.filiera.repository.ProductRepository;
 import com.example.filiera.repository.TrasformazioneRepository;

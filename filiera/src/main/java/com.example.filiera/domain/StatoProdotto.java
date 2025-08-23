@@ -1,2 +1,6 @@
 package com.example.filiera.domain;
-public enum StatoProdotto { IN_ATTESA_APPROVAZIONE }
+public enum StatoProdotto {
+    IN_ATTESA_APPROVAZIONE,
+    APPROVATO,
+    RIFIUTATO
+}

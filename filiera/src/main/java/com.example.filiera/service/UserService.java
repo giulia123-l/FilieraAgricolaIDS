@@ -1,7 +1,12 @@
 package com.example.filiera.service;
 
-import com.example.filiera.domain.*;
-import com.example.filiera.dto.*;
+import com.example.filiera.domain.Ruolo;
+import com.example.filiera.domain.StatoUtente;
+import com.example.filiera.domain.Utente;
+import com.example.filiera.dto.LoginRequest;
+import com.example.filiera.dto.LoginResponse;
+import com.example.filiera.dto.RegisterRequest;
+import com.example.filiera.dto.UserResponse;
 import com.example.filiera.repository.UserRepository;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;

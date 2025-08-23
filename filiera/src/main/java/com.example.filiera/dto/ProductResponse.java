@@ -1,15 +1,26 @@
 package com.example.filiera.dto;
-import java.util.UUID;
-import com.example.filiera.domain.StatoProdotto;
 
 public class ProductResponse {
-    public Long id;
-    public String nome;
-    public String descrizione;
-    public Double lat;
-    public Double lon;
-    public StatoProdotto stato;
-    public Long creatoDaUserId;
-    public ProductResponse(Long id,String n,String d,Double lat,Double lon,StatoProdotto s,Long u){
-        this.id=id;this.nome=n;this.descrizione=d;this.lat=lat;this.lon=lon;this.stato=s;this.creatoDaUserId=u;}
+    private Long id;
+    private String nome;
+    private String descrizione;
+    private Double lat;
+    private Double lon;
+    private String stato;
+    private Long creatoDaUserId;
+
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+    public String getNome() { return nome; }
+    public void setNome(String nome) { this.nome = nome; }
+    public String getDescrizione() { return descrizione; }
+    public void setDescrizione(String descrizione) { this.descrizione = descrizione; }
+    public Double getLat() { return lat; }
+    public void setLat(Double lat) { this.lat = lat; }
+    public Double getLon() { return lon; }
+    public void setLon(Double lon) { this.lon = lon; }
+    public String getStato() { return stato; }
+    public void setStato(String stato) { this.stato = stato; }
+    public Long getCreatoDaUserId() { return creatoDaUserId; }
+    public void setCreatoDaUserId(Long creatoDaUserId) { this.creatoDaUserId = creatoDaUserId; }
 }

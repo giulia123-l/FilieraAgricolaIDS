@@ -1,6 +1,9 @@
 package com.example.filiera.service;
 
-import com.example.filiera.domain.*;
+import com.example.filiera.domain.Pacchetto;
+import com.example.filiera.domain.Prodotto;
+import com.example.filiera.domain.StatoProdotto;
+import com.example.filiera.domain.TipoProdotto;
 import com.example.filiera.repository.PacchettoRepository;
 import com.example.filiera.repository.ProductRepository;
 import org.springframework.stereotype.Service;

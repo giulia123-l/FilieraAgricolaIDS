@@ -1,6 +1,11 @@
 package com.example.filiera.service;
 
-import com.example.filiera.domain.*;
+import com.example.filiera.domain.Pacchetto;
+import com.example.filiera.domain.Prodotto;
+import com.example.filiera.domain.Ruolo;
+import com.example.filiera.domain.StatoProdotto;
+import com.example.filiera.domain.StatoUtente;
+import com.example.filiera.domain.Utente;
 import com.example.filiera.dto.CreatePackageRequest;
 import com.example.filiera.repository.PacchettoRepository;
 import com.example.filiera.repository.ProductRepository;

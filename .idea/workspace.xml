@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="defd6f02-1953-462e-8e0a-815022c1b81c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/filiera.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FilieraAgricolaIDS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FilieraAgricolaIDS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/controller/PacchettoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/controller/PacchettoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Prodotto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/StatoProdotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/StatoProdotto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateTransformedProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateTransformedProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/RejectRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/RejectRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/PacchettoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/PacchettoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/TrasformazioneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/TrasformazioneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/VisualizzazioneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/VisualizzazioneService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.FilieraApplication.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "Database connection parameters found",
@@ -43,21 +53,30 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.FilieraApplication.executor": "Run",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/crbea/OneDrive/Desktop/ProgettoIDS/FilieraAgricolaIDS/data",
+    "last_opened_file_path": "C:/Users/crbea/OneDrive/Desktop/filiera-iter2-completo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\crbea\OneDrive\Desktop\ProgettoIDS\FilieraAgricolaIDS\data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.filiera.repository" />
+      <recent name="com.example.filiera.service" />
+      <recent name="com.example.filiera.dto" />
+      <recent name="com.example.filiera.domain" />
+      <recent name="com.example.filiera.controller" />
     </key>
   </component>
   <component name="RunManager">
