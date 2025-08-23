@@ -2,6 +2,7 @@ package com.example.filiera.service;
 
 import com.example.filiera.domain.*;
 import com.example.filiera.dto.CreatePackageRequest;
+import com.example.filiera.repository.PacchettoRepository;
 import com.example.filiera.repository.ProductRepository;
 import com.example.filiera.repository.UserRepository;
 import jakarta.persistence.EntityNotFoundException;
