@@ -19,7 +19,7 @@ Le API consentono di:
 -  Creare e gestire eventi, itinerari e punti di interesse.
 -  Controllare e modificare i contenuti associati a ciascun elemento.
 
-Nel progetto è incluso un file *Visual Paradigm, che documenta le fasi di progettazione attraverso **diagrammi UML*, mostrando casi d'uso e flussi implementati nel codice.
+Nel progetto è incluso un file *Visual Paradigm, che documenta le fasi di progettazione attraverso diagrammi UML*, mostrando casi d'uso e flussi implementati nel codice.
 
 ---
 
