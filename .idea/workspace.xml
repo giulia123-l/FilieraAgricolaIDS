@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="defd6f02-1953-462e-8e0a-815022c1b81c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Evento.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Marketplace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Offerta.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Ordine.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/OrdineItem.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/StatoOrdine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/TipoEvento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/TipoOfferta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
