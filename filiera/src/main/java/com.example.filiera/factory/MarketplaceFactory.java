@@ -1,6 +1,5 @@
 package com.example.filiera.factory;
 
-import com.example.filiera.domain.Marketplace;
 import com.example.filiera.dto.CreateMarketplaceRequest;
 
 public class MarketplaceFactory {

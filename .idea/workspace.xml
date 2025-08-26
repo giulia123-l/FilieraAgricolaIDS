@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="defd6f02-1953-462e-8e0a-815022c1b81c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/controller/PacchettoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/controller/PacchettoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Prodotto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/StatoProdotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/StatoProdotto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateTransformedProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateTransformedProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/ProductResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/RejectRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/RejectRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/PacchettoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/PacchettoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/TrasformazioneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/TrasformazioneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/VisualizzazioneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/VisualizzazioneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Marketplace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Offerta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/Ordine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/OrdineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/StatoOrdine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/TipoEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/domain/TipoOfferta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +28,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 2
     }</component>
   <component name="ProjectId" id="30xE4PqTcwfhywe2lMFywVvqlyn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,7 +58,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.FilieraApplication.executor": "Run",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/crbea/OneDrive/Desktop/filiera-iter2-completo",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/crbea/OneDrive/Desktop/Iterazione 3 COMPLETA",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,10 +75,10 @@
       <recent name="C:\Users\crbea\OneDrive\Desktop\ProgettoIDS\FilieraAgricolaIDS\data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.filiera.domain" />
       <recent name="com.example.filiera.repository" />
       <recent name="com.example.filiera.service" />
       <recent name="com.example.filiera.dto" />
-      <recent name="com.example.filiera.domain" />
       <recent name="com.example.filiera.controller" />
     </key>
   </component>
@@ -88,14 +91,7 @@
       </method>
     </configuration>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
-      </set>
-    </attachedChunks>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="defd6f02-1953-462e-8e0a-815022c1b81c" name="Changes" comment="" />
