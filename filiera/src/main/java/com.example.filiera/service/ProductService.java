@@ -51,9 +51,20 @@ public class ProductService {
     public List<Prodotto> listApproved() { return repo.findByStato(StatoProdotto.APPROVATO); }
 
     @Transactional
-    public Prodotto approveById(Long id) {
-        Prodotto p = repo.findById(id).orElseThrow(() -> new EntityNotFoundException("Prodotto " + id + " non trovato"));
-        if (p.getStato() != StatoProdotto.IN_ATTESA_APPROVAZIONE) throw new IllegalStateException("Prodotto non approvabile");
+    public Prodotto approveById(Long productId, Long curatoreId) {
+        Utente curatore = userRepo.findById(curatoreId)
+                .orElseThrow(() -> new EntityNotFoundException("Curatore non trovato"));
+
+        if (curatore.getStato() != StatoUtente.ATTIVO || curatore.getRuoloAssegnato() != Ruolo.CURATORE) {
+            throw new IllegalStateException("Solo un CURATORE ATTIVO può approvare prodotti");
+        }
+
+        Prodotto p = repo.findById(productId)
+                .orElseThrow(() -> new EntityNotFoundException("Prodotto " + productId + " non trovato"));
+        if (p.getStato() != StatoProdotto.IN_ATTESA_APPROVAZIONE) {
+            throw new IllegalStateException("Prodotto non approvabile");
+        }
+
         p.setStato(StatoProdotto.APPROVATO);
         p.setTipo(TipoProdotto.BASE);
         p.setNoteRifiuto(null);
@@ -61,9 +72,20 @@ public class ProductService {
     }
 
     @Transactional
-    public Prodotto rejectById(Long id, String motivazione) {
-        Prodotto p = repo.findById(id).orElseThrow(() -> new EntityNotFoundException("Prodotto " + id + " non trovato"));
-        if (p.getStato() != StatoProdotto.IN_ATTESA_APPROVAZIONE) throw new IllegalStateException("Prodotto non rifiutabile");
+    public Prodotto rejectById(Long productId, Long curatoreId, String motivazione) {
+        Utente curatore = userRepo.findById(curatoreId)
+                .orElseThrow(() -> new EntityNotFoundException("Curatore non trovato"));
+
+        if (curatore.getStato() != StatoUtente.ATTIVO || curatore.getRuoloAssegnato() != Ruolo.CURATORE) {
+            throw new IllegalStateException("Solo un CURATORE ATTIVO può rifiutare prodotti");
+        }
+
+        Prodotto p = repo.findById(productId)
+                .orElseThrow(() -> new EntityNotFoundException("Prodotto " + productId + " non trovato"));
+        if (p.getStato() != StatoProdotto.IN_ATTESA_APPROVAZIONE) {
+            throw new IllegalStateException("Prodotto non rifiutabile");
+        }
+
         p.setStato(StatoProdotto.RIFIUTATO);
         p.setTipo(null);
         p.setNoteRifiuto(motivazione);

@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="defd6f02-1953-462e-8e0a-815022c1b81c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateEventoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateListingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateMarketplaceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto/CreateOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/EventoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/MappaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/MarketplaceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/OrdineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +31,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 2
@@ -49,6 +62,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.FilieraApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/sofia/Documents/GitHub/FilieraAgricolaIDS/filiera/src/main/java/com.example.filiera/service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,10 +78,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/service" />
+      <recent name="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/dto" />
       <recent name="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/controller" />
       <recent name="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/security" />
       <recent name="$PROJECT_DIR$/filiera/src/main/java/com.example.filiera/factory" />
-      <recent name="C:\Users\crbea\OneDrive\Desktop\ProgettoIDS\FilieraAgricolaIDS\data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.filiera.domain" />
