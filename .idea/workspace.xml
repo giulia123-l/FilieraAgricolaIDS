@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="defd6f02-1953-462e-8e0a-815022c1b81c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,9 @@
     &quot;associatedIndex&quot;: 2
     }</component>
   <component name="ProjectId" id="30xE4PqTcwfhywe2lMFywVvqlyn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +49,6 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.FilieraApplication.executor": "Run",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/sofia/Documents/GitHub/FilieraAgricolaIDS/filiera/src/main/java/com.example.filiera/controller",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,10 +70,10 @@
       <recent name="C:\Users\crbea\OneDrive\Desktop\ProgettoIDS\FilieraAgricolaIDS\data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.filiera.domain" />
       <recent name="com.example.filiera.repository" />
       <recent name="com.example.filiera.service" />
       <recent name="com.example.filiera.dto" />
-      <recent name="com.example.filiera.domain" />
       <recent name="com.example.filiera.controller" />
     </key>
   </component>
@@ -85,14 +86,7 @@
       </method>
     </configuration>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
-      </set>
-    </attachedChunks>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="defd6f02-1953-462e-8e0a-815022c1b81c" name="Changes" comment="" />

@@ -1,6 +1,5 @@
 package com.example.filiera.controller;
 
-import com.example.filiera.domain.Marketplace;
 import com.example.filiera.domain.Offerta;
 import com.example.filiera.dto.CreateListingRequest;
 import com.example.filiera.dto.CreateMarketplaceRequest;
