@@ -1,6 +1,9 @@
 package com.example.filiera.service;
 
-import com.example.filiera.domain.*;
+import com.example.filiera.domain.Marketplace;
+import com.example.filiera.domain.Prodotto;
+import com.example.filiera.domain.StatoProdotto;
+import com.example.filiera.domain.TipoProdotto;
 import com.example.filiera.dto.MapPointResponse;
 import com.example.filiera.repository.MarketplaceRepository;
 import com.example.filiera.repository.ProductRepository;

@@ -1,11 +1,21 @@
 package com.example.filiera.service;
 
-import com.example.filiera.domain.*;
+import com.example.filiera.domain.Marketplace;
+import com.example.filiera.domain.Offerta;
+import com.example.filiera.domain.Pacchetto;
+import com.example.filiera.domain.Prodotto;
+import com.example.filiera.domain.StatoProdotto;
+import com.example.filiera.domain.TipoOfferta;
+import com.example.filiera.domain.Utente;
 import com.example.filiera.dto.CreateListingRequest;
 import com.example.filiera.dto.CreateMarketplaceRequest;
 import com.example.filiera.factory.MarketplaceFactory;
 import com.example.filiera.factory.OffertaFactory;
-import com.example.filiera.repository.*;
+import com.example.filiera.repository.MarketplaceRepository;
+import com.example.filiera.repository.OffertaRepository;
+import com.example.filiera.repository.PacchettoRepository;
+import com.example.filiera.repository.ProductRepository;
+import com.example.filiera.repository.UserRepository;
 import com.example.filiera.security.Action;
 import com.example.filiera.security.PermissionService;
 import jakarta.persistence.EntityNotFoundException;

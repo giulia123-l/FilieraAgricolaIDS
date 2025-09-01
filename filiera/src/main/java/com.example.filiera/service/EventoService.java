@@ -1,6 +1,7 @@
 package com.example.filiera.service;
 
-import com.example.filiera.domain.*;
+import com.example.filiera.domain.Evento;
+import com.example.filiera.domain.Utente;
 import com.example.filiera.dto.CreateEventoRequest;
 import com.example.filiera.repository.EventoRepository;
 import com.example.filiera.repository.UserRepository;
