@@ -20,16 +20,18 @@ public class AdminProductController {
 
     @Operation(summary = "Approva un prodotto base, trasformato o pacchetto")
     @PostMapping("/{id}/approve")
-    public ResponseEntity<ProductResponse> approve(@PathVariable("id") Long id) {
-        Prodotto updated = service.approveById(id);
+    public ResponseEntity<ProductResponse> approve(@PathVariable("id") Long id,
+                                                   @RequestParam("curatoreId") Long curatoreId) {
+        Prodotto updated = service.approveById(id, curatoreId);
         return ResponseEntity.ok(ProductService.toResp(updated));
     }
 
     @Operation(summary = "Rifiuta un prodotto base, trasformato o pacchetto")
     @PostMapping("/{id}/reject")
     public ResponseEntity<ProductResponse> reject(@PathVariable("id") Long id,
+                                                  @RequestParam("curatoreId") Long curatoreId,
                                                   @RequestBody @jakarta.validation.Valid RejectRequest body) {
-        Prodotto updated = service.rejectById(id, body.getMotivazione());
+        Prodotto updated = service.rejectById(id, curatoreId, body.getMotivazione());
         return ResponseEntity.ok(ProductService.toResp(updated));
     }
 
