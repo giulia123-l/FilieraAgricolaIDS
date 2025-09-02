@@ -1,6 +1,7 @@
 package com.example.filiera.factory;
 
 import com.example.filiera.dto.CreateMarketplaceRequest;
+import com.example.filiera.domain.Marketplace;
 
 public class MarketplaceFactory {
     public Marketplace create(CreateMarketplaceRequest req) {

@@ -1,6 +1,9 @@
 package com.example.filiera.factory;
 
-import com.example.filiera.domain.*;
+import com.example.filiera.domain.Marketplace;
+import com.example.filiera.domain.Offerta;
+import com.example.filiera.domain.Pacchetto;
+import com.example.filiera.domain.Prodotto;
 import com.example.filiera.dto.CreateListingRequest;
 
 public class OffertaFactory {

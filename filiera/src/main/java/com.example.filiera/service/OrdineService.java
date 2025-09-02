@@ -1,9 +1,17 @@
 package com.example.filiera.service;
 
-import com.example.filiera.domain.*;
+import com.example.filiera.domain.Marketplace;
+import com.example.filiera.domain.Offerta;
+import com.example.filiera.domain.Ordine;
+import com.example.filiera.domain.OrdineItem;
+import com.example.filiera.domain.StatoOrdine;
+import com.example.filiera.domain.Utente;
 import com.example.filiera.dto.CreateOrderRequest;
 import com.example.filiera.dto.OrderResponse;
-import com.example.filiera.repository.*;
+import com.example.filiera.repository.MarketplaceRepository;
+import com.example.filiera.repository.OffertaRepository;
+import com.example.filiera.repository.OrdineRepository;
+import com.example.filiera.repository.UserRepository;
 import com.example.filiera.security.Action;
 import com.example.filiera.security.PermissionService;
 import jakarta.persistence.EntityNotFoundException;
