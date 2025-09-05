@@ -12,6 +12,9 @@ public class PermissionService {
         strategies.put(Action.ADD_LISTING, new AddListingPermission());
         strategies.put(Action.CREATE_ORDER, new CreateOrderPermission());
         strategies.put(Action.CREATE_EVENT, new CreateEventPermission());
+        strategies.put(Action.INVITE_EVENT, new InviteEventPermission());
+        strategies.put(Action.BOOK_EVENT, new BookEventPermission());
+        strategies.put(Action.CREATE_SHARE_LINK, new ActiveUserPermission());
     }
 
     public PermissionService register(Action action, PermissionStrategy strategy) {
