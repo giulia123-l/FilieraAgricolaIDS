@@ -9,6 +9,7 @@ import com.example.filiera.domain.TipoOfferta;
 import com.example.filiera.domain.Utente;
 import com.example.filiera.dto.CreateListingRequest;
 import com.example.filiera.dto.CreateMarketplaceRequest;
+import com.example.filiera.factory.MarketplaceFactory;
 import com.example.filiera.factory.OffertaFactory;
 import com.example.filiera.repository.MarketplaceRepository;
 import com.example.filiera.repository.OffertaRepository;
