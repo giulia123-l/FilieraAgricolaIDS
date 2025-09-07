@@ -8,7 +8,9 @@ Il team di sviluppo è composto da:
 
 L'obiettivo del software è *gestione, valorizzazione e tracciabilità dei prodotti agricoli di un territorio comunale*, consentendo la registrazione e consultazione di eventi, punti di interesse, itinerari e altre informazioni culturali.
 
+
 ---
+
 
 ## Struttura del Progetto
 
@@ -19,9 +21,11 @@ Le API consentono di:
 -  Creare e gestire eventi, itinerari e punti di interesse.
 -  Controllare e modificare i contenuti associati a ciascun elemento.
 
-Nel progetto è incluso un file *Visual Paradigm, che documenta le fasi di progettazione attraverso diagrammi UML*, mostrando casi d'uso e flussi implementati nel codice.
+Nel progetto è incluso un file *Visual Paradigm che documenta le fasi di progettazione attraverso diagrammi UML*, mostrando casi d'uso e flussi implementati nel codice.
+
 
 ---
+
 
 ## 📦 Installazione e Avvio del Progetto
 
@@ -29,6 +33,7 @@ Nel progetto è incluso un file *Visual Paradigm, che documenta le fasi di proge
 - *Java 17+* installato
 - *Maven* installato sul dispositivo
 - *Git* (opzionale, per clonare il repository)
+
 
 ### *Istruzioni*
 - Puoi scaricare il progetto manualmente oppure clonarlo tramite Git
