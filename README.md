@@ -1,6 +1,6 @@
 # 🌍 Filiera agricola
 
-*Filiera agricola* è un progetto sviluppato per l'esame di *Ingegneria del Software* presso *UNICAM* nell'anno accademico 2024/2025.  
+*Filiera agricola* è un progetto sviluppato per l'esame di *Ingegneria del Software* presso *UNICAM* nell'anno accademico 2025/2026.  
 Il team di sviluppo è composto da:
 - *Beatrice Cruciani*
 - *Giulia Lupi*
